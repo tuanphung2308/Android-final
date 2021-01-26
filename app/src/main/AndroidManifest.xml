@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
 
     <application
-        android:name=".data.ThisApplication"
+        android:name="com.company.threebutton.data.ThisApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -80,7 +80,7 @@
             android:name=".activity.ActivityWebView"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.MainMenu"
+            android:name="com.company.threebutton.tuan.MainMenu"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
 
@@ -258,7 +258,7 @@
             android:name=".activity.toolbar.ToolbarCollapsePin"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.FormProfileData"
+            android:name="com.company.threebutton.tuan.FormProfileData"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.form.FormWithIcon"
@@ -339,7 +339,7 @@
             android:name=".activity.button.FabMoreText"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.BottomSheetMap"
+            android:name="com.company.threebutton.tuan.BottomSheetMap"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.bottomsheet.BottomSheetFloating"
@@ -378,7 +378,7 @@
             android:name=".activity.bottomnavigation.BottomNavigationIcon"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.GuideScreen"
+            android:name="com.company.threebutton.tuan.GuideScreen"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.profile.ProfilePolygon"
@@ -465,7 +465,7 @@
             android:name=".activity.shopping.ShoppingCheckoutCard"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.ShoppingProductGrid"
+            android:name="com.company.threebutton.tuan.ShoppingProductGrid"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.shopping.ShoppingProductDetails"
@@ -474,7 +474,7 @@
             android:name=".activity.shopping.ShoppingSubCategoryTabs"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.ShoppingProductAdvDetails"
+            android:name="com.company.threebutton.tuan.ShoppingProductAdvDetails"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.sliderimage.SliderImageHeader"
@@ -534,7 +534,7 @@
             android:name=".activity.settings.SettingProfile"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.SettingSectioned"
+            android:name="com.company.threebutton.tuan.SettingSectioned"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.settings.SettingFlat"
@@ -546,7 +546,7 @@
             android:name=".activity.verification.VerificationPhone"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.VerificationCode"
+            android:name="com.company.threebutton.tuan.VerificationCode"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.verification.VerificationHeader"
@@ -579,7 +579,7 @@
             android:name=".activity.login.LoginSimpleDark"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.PaymentProfile"
+            android:name="com.company.threebutton.tuan.PaymentProfile"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.payment.PaymentForm"
@@ -660,7 +660,7 @@
             android:name=".activity.article.ArticleFoodReview"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.ShoppingCartSimple"
+            android:name="com.company.threebutton.tuan.ShoppingCartSimple"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.shopping.ShoppingCartCard"
@@ -669,10 +669,10 @@
             android:name=".activity.shopping.ShoppingCartCardDark"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.ShoppingCheckoutStep"
+            android:name="com.company.threebutton.tuan.ShoppingCheckoutStep"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.ShoppingCheckoutTimeline"
+            android:name="com.company.threebutton.tuan.ShoppingCheckoutTimeline"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.shopping.ShoppingCheckoutOnePage"
@@ -705,7 +705,7 @@
             android:name=".activity.about.AboutApp"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.AboutAppSimple"
+            android:name="com.company.threebutton.tuan.AboutAppSimple"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.about.AboutAppSimpleBlue"
@@ -915,7 +915,7 @@
             android:name=".activity.bottomnavigation.BottomNavigationShop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".tuan.BottomNavigationSmall"
+            android:name="com.company.threebutton.tuan.BottomNavigationSmall"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.bottomnavigation.BottomNavigationMain"
